@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: ecm-payment
+
+  config:
+    import: "optional:configserver:http://localhost:8071/"
