@@ -41,6 +41,7 @@ dependencies {
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
     implementation "com.trilabs94:common-error-handler-spring-boot-starter:0.0.1"
     implementation 'org.springframework.kafka:spring-kafka'
+    implementation('org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0')
 }
 
 dependencyManagement {
