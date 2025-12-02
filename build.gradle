@@ -42,6 +42,7 @@ dependencies {
     implementation "com.trilabs94:common-error-handler-spring-boot-starter:0.0.1"
     implementation 'org.springframework.kafka:spring-kafka'
     implementation('org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0')
+    implementation 'org.springframework.cloud:spring-cloud-starter-loadbalancer'
 }
 
 dependencyManagement {
